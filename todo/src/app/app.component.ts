@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Item } from './item';
+import {MatCardModule} from '@angular/material/card';
 
 @Component({
   selector: 'app-root',
