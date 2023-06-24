@@ -31,6 +31,10 @@ export class AppComponent {
     {
       return this.allItems.filter(item=>item.done==true);
     }
+    if(this.filter=="active")
+      {
+        return this.allItems.filter(item=>item.done==false);
+      }
     return undefined;
   }
 
